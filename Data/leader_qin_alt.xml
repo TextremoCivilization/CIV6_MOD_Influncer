@@ -17,10 +17,10 @@
 	<TraitModifiers>
 		<!-- 穷兵黩武 -->
 		<!-- 穷兵黩武——移速 -->
-		<Row>
+		<!-- <Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_UNITS_MOVEMENT_ADD_02</ModifierId>
-		</Row>
+		</Row> -->
 		<!-- 穷兵黩武——加力 -->
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
@@ -38,15 +38,18 @@
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_UNITS_ATTACK_HOLY_CITIES_ADD_03_RELIGIOUS</ModifierId>
 		</Row>
-
+		<!-- 穷兵黩武——攻城升级军团或军队 -->
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
-			<ModifierId>TRAIT_MILITANCY_UPGRADE_MILITARY_FORMATION_ON_CITY_CONQUEST</ModifierId>
+			<ModifierId>WS_AB_UNITS_CONQUE_CITY_UPGRADE_MILITARY_FORMATION</ModifierId>
 		</Row>
+
+		<!-- 穷兵黩武——抓工人 -->
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_MILITANCY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
 		</Row>
+		<!-- 穷兵黩武——杀人+大将军和海军点数 -->
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_UNITS_KILL_BONUS_GREAT_GENERAL_POINTS_20</ModifierId>
@@ -55,6 +58,7 @@
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_UNITS_KILL_BONUS_GREAT_ADMIRAL_POINTS_20</ModifierId>
 		</Row>
+		<!-- 穷兵黩武——杀人+金币、文化、信仰 -->
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_UNITS_KILL_BONUS_GOLD_PER_050</ModifierId>
@@ -67,12 +71,13 @@
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_UNITS_KILL_BONUS_FAITH_PER_100</ModifierId>
 		</Row>
+		<!-- 穷兵黩武——军事槽+1 -->
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_SLOT_MILITARY_PLUS1</ModifierId>
 		</Row>
 		<!-- 穷兵黩武 - 掠夺加科技 & 文化 -->
-		<Row>
+		<!-- <Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_LEADER_PILLAGE_SCIENCE_MINES</ModifierId>
 		</Row>
@@ -91,7 +96,7 @@
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_LEADER_PILLAGE_CULTURE_CAMPS</ModifierId>
-		</Row>
+		</Row> -->
 		<!-- 愚民奴役 -->
 		<Row>
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
@@ -163,7 +168,7 @@
 			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>WS_AB_GREAT_WORK_ARTIFACT_PROD_ADD_01</ModifierId>
 		</Row>
@@ -183,7 +188,6 @@
 			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>WS_AB_GREAT_WORK_RELIC_PROD_ADD_01</ModifierId>
 		</Row>
-		
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>WS_AB_GREAT_WORK_RELIGIOUS_PROD_ADD_01</ModifierId>
@@ -195,7 +199,7 @@
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>WS_AB_GREAT_WORK_WRITING_PROD_ADD_01</ModifierId>
-		</Row>
+		</Row> -->
 
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
@@ -233,6 +237,10 @@
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>WS_AB_SCI_GRANT_ASTROLOGY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_SCI_GRANT_SHIPBUILDING</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>

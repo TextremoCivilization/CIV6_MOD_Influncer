@@ -6,6 +6,11 @@
 			<ModifierId>WS_AB_SCI_GRANT_ASTROLOGY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
 		</Row>
+		<!-- 解锁造船术 -->
+        <Row>
+			<ModifierId>WS_AB_SCI_GRANT_SHIPBUILDING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+		</Row>
         <!-- 解锁蒸汽动力 -->
         <Row>
 			<ModifierId>WS_AB_SCI_GRANT_STEAM_POWER</ModifierId>
@@ -19,6 +24,11 @@
 			<Value>TECH_ASTROLOGY</Value>
 		</Row>
         <Row>
+			<ModifierId>WS_AB_SCI_GRANT_SHIPBUILDING</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SHIPBUILDING</Value>
+		</Row>
+		<Row>
 			<ModifierId>WS_AB_SCI_GRANT_STEAM_POWER</ModifierId>
 			<Name>TechType</Name>
 			<Value>TECH_STEAM_POWER</Value>

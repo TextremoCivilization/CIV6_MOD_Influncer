@@ -22,6 +22,12 @@
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 			<Permanent>true</Permanent>
 		</Row>
+		<!-- 攻占城市组建军队或军团 -->
+		<Row>
+			<ModifierId>WS_AB_UNITS_CONQUE_CITY_UPGRADE_MILITARY_FORMATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_UPGRADE_MILITARY_FORMATION_ON_CITY_CONQUEST</ModifierType>
+		</Row>
+
     </Modifiers>
     <ModifierArguments>
         <!-- 每个奢饰+1力 -->

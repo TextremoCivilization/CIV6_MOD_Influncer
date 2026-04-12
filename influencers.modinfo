@@ -9,7 +9,14 @@
 		<EnabledByDefault>1</EnabledByDefault>
 		<EnabledAtStartup>1</EnabledAtStartup>
 		<CompatibleVersions>2.0</CompatibleVersions>
+		<AffectsSavedGames>1</AffectsSavedGames>
 	</Properties>
+	<Dependencies>
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+	</Dependencies>
+	<References>
+		<Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="LOC_GRANCOLOMBIA_MAYA_MOD_TITLE" />
+	</References>
 	<LocalizedText>
 		<Text id="LOC_MOD_NAME">
 			<en_US>[COLOR_RED]The Influencers[ENDCOLOR]</en_US>
@@ -22,10 +29,6 @@
 		</Criteria>
 	</ActionCriteria>
 	<InGameActions>
-		<UpdateDatabase id="InGameData">
-			<Criteria>Expansion2</Criteria>
-			<File>DND.sql</File>
-		</UpdateDatabase>
 		<UpdateDatabase id="WSInfluencerLeaders">
 			<File>Data/leader_qin_alt.xml</File>
 		</UpdateDatabase>
@@ -68,8 +71,7 @@
 		</UpdateText>
 	</FrontEndActions>
 	-->
-	<Files>
-		<File>Data/DND.sql</File>	
+	<Files>	
 		<File>Data/RequirementSets.xml</File>
 		<File>Data/requirements.xml</File>
 		<File>Data/Abilities/cities.xml</File>
