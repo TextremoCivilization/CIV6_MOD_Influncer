@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <Row>
+            <ModifierId>WS_AB_HEROES_LIFESPAN_1000</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_ADJUST_PROPERTY</ModifierType>
+            <SubjectRequirementSetId>WS_SET_HERO_MODE_ONLY</SubjectRequirementSetId>
+        </Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row ModifierId="WS_AB_HEROES_LIFESPAN_1000" Name="Key" Value="PlayerHeroesExtraLifespan"/>
+		<Row ModifierId="WS_AB_HEROES_LIFESPAN_1000" Name="Amount" Value="1000"/>
+    </ModifierArguments>
+    <ModifierStrings>
+        <Row ModifierId="WS_AB_HEROES_LIFESPAN_1000" Context="Summary" Text="LOC_WS_AB_HEROES_LIFESPAN"/>
+    </ModifierStrings>
+</GameInfo>

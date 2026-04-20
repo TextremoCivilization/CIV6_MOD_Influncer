@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <RequirementSets>
+        <Row RequirementSetId="WS_SET_HERO_MODE_ONLY" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+    </RequirementSets>
+
+    <RequirementSetRequirements>
+        <Row RequirementSetId="WS_SET_HERO_MODE_ONLY" RequirementId="WS_REQ_GAME_MODE_HEROES_ENABLED"/>
+    </RequirementSetRequirements>
+</GameInfo>

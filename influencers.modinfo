@@ -12,22 +12,40 @@
 		<AffectsSavedGames>1</AffectsSavedGames>
 	</Properties>
 	<Dependencies>
-		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE"/>
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE"/>
+		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="LOC_POLAND_JADWIGA_MOD_TITLE"/>
+		<Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="LOC_GRANCOLOMBIA_MAYA_MOD_TITLE"/>
+		<Mod id="8424840C-92EF-4426-A9B4-B4E0CB818049" title="DLC: Babylon Pack" />
 	</Dependencies>
 	<References>
-		<Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="LOC_GRANCOLOMBIA_MAYA_MOD_TITLE" />
+		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE"/>
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE"/>
+		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="LOC_POLAND_JADWIGA_MOD_TITLE"/>
+		<Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="LOC_GRANCOLOMBIA_MAYA_MOD_TITLE"/>
+		<Mod id="8424840C-92EF-4426-A9B4-B4E0CB818049" title="DLC: Babylon Pack" />
 	</References>
-	<LocalizedText>
-		<Text id="LOC_MOD_NAME">
-			<en_US>[COLOR_RED]The Influencers[ENDCOLOR]</en_US>
-			<zh_Hans_CN>[COLOR_RED]风云人物包[ENDCOLOR]</zh_Hans_CN>
-		</Text>
-	</LocalizedText>
+	<!-- 替换条件 -->
 	<ActionCriteria>
 		<Criteria id="Expansion2">
 			<GameCoreInUse>Expansion2</GameCoreInUse>
 		</Criteria>
+		<Criteria Id="HeroesMode_Active">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_HEROES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
 	</ActionCriteria>
+	<!-- <FrontEndActions>
+		<UpdateDatabase id="WSInfluencerLeaders_FE">
+			<File>Config/config_leader_qin_alt.xml</File>
+		</UpdateDatabase>
+		<UpdateText id="WSInfluencerText_FE">
+			<File>Text/china/ws_qin_alt.xml</File>
+		</UpdateText>
+	</FrontEndActions> -->
 	<InGameActions>
 		<UpdateDatabase id="WSInfluencerLeaders">
 			<File>Data/leader_qin_alt.xml</File>
@@ -35,6 +53,9 @@
 		<UpdateDatabase id="WSInfluencerCore">
 			<File>Data/RequirementSets.xml</File>
 			<File>Data/requirements.xml</File>
+			<File>Data/ReqSet/reqset_heros.xml</File>
+			<File>Data/Req/req_heros.xml</File>
+			<File>Data/Abilities/heros.xml</File>
 			<File>Data/Abilities/cities.xml</File>
 			<File>Data/Abilities/city_state.xml</File>
 			<File>Data/Abilities/greatwork_artifact.xml</File>
@@ -56,11 +77,21 @@
 			<File>Data/Abilities/random_event_imune.xml</File>
 		</UpdateDatabase>
 		<UpdateText id="WSInfluencerText">
-      		<File>Text/civ_china_leader_qin_alt.xml</File>
+			<File>Text/china/qin_alt.xml</File>
+			<File>Text/ab_heros.xml</File>
     	</UpdateText>
+		<!-- <UpdateText id="WSInfluencerText_Hero" Criteria="HeroesMode_Active">
+			<File Priority="1">Text/china/qin_alt_hero.xml</File>
+    	</UpdateText> -->
 	</InGameActions>
 
-	
+	<LocalizedText>
+		<Text id="LOC_MOD_NAME">
+			<en_US>[COLOR_RED]The Influencers[ENDCOLOR]</en_US>
+			<zh_Hans_CN>[COLOR_RED]风云人物包[ENDCOLOR]</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+
 	<!--
 	<FrontEndActions>
 		<UpdateDatabase id="Enhanced_China_ConfigData">
@@ -74,6 +105,9 @@
 	<Files>	
 		<File>Data/RequirementSets.xml</File>
 		<File>Data/requirements.xml</File>
+		<File>Data/ReqSet/reqset_heros.xml</File>
+		<File>Data/Req/req_heros.xml</File>
+		<File>Data/Abilities/heros.xml</File>
 		<File>Data/Abilities/cities.xml</File>
 		<File>Data/Abilities/city_state.xml</File>
 		<File>Data/Abilities/units_attack.xml</File>
@@ -95,6 +129,8 @@
 		<File>Data/Abilities/random_event_imune.xml</File>
 		<File>Data/leader_qin_alt.xml</File>
 		<File>Data/ConfigData.xml</File>
-		<File>Text/civ_china_leader_qin_alt.xml</File>
+		<File>Config/config_leader_qin_alt.xml</File>
+		<File>Text/china/qin_alt.xml</File>
+		<File>Text/china/qin_alt_hero.xml</File>
 	</Files>
 </Mod>

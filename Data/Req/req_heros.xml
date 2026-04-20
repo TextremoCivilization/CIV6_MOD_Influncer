@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Requirements>
+        <Row RequirementId="WS_REQ_GAME_MODE_HEROES_ENABLED" RequirementType="REQUIREMENT_GAME_ERA_IS" Inverse="true"/> 
+    </Requirements>
+    <RequirementArguments>
+        <Row RequirementId="WS_REQ_GAME_MODE_HEROES_ENABLED" Name="GameOption" Value="GAMEMODE_HEROES"/>
+    </RequirementArguments>
+</GameInfo>
+
+

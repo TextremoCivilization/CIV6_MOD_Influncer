@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_WS_AB_HEROES_LIFESPAN" Language="zh_Hans_CN">
+        <Text>所有英雄 [ICON_Lifespan] 寿命+{1_Amount}。</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

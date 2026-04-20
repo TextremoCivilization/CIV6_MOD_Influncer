@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+  	<LocalizedText>
+		<Update>
+			<Where Tag="LOC_TRAIT_MILITANCY_DESCRIPTION"/>
+			<Set>
+				<Text>英雄的 [ICON_Lifespan] 寿命+1000%。可以用 [ICON_Faith] 信仰购买战斗单位。每个奢饰品+1 [ICON_Strength] 战斗力，每有一座宗教昄依的圣城，单位+3 [ICON_Strength] 战斗力, 与不同信仰单位作战+5 [ICON_Strength] 战斗力。 占领城市可将其升级为军团或军队。战斗胜利后，传播宗教，俘获（非蛮族）敌人成工人或坑杀敌人获得击杀单位 [ICON_Strength] 战斗力25%的 [ICON_Culture] 文化值、100%的 [ICON_Faith] 信仰值、50%的 [ICON_Gold] 金币和20点 [ICON_GreatGeneral] 大将军或 [ICON_GreatAdmiral] 海军统帅点数。</Text>
+			</Set>
+		</Update>		
+	</LocalizedText>
+</GameData>
